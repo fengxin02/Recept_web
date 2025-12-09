@@ -9,7 +9,7 @@ import "./Loading.css";
 const Loading = () => {
   return (
       <div className='loading-container'>
-      <h3>⏳ Töltés alatt...</h3>
+      <h3>Töltés alatt...</h3>
     </div>
   );
 };
