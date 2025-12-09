@@ -1,0 +1,109 @@
+/* src/pages/RecipeDetails.css */
+
+.details-container {
+  max-width: 800px;
+  margin:  auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.details-header {
+  margin-bottom: 10px;
+}
+
+.back-btn {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.details-img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.details-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.details-title {
+  font-size: 45px;
+  margin: 0;
+  color: #333;
+}
+
+.fav-btn-large {
+  background: none;
+  border: 2px solid #ddd;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+}
+
+.fav-btn-large:hover {
+  border-color: red;
+  color: red;
+}
+
+.fav-btn-large.active {
+  border-color: red;
+  color: red;
+}
+.details-info {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+  color: #666;
+  font-size: 14px;
+}
+
+.info-tag {
+  background-color: #f0f0f0;
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+
+.details-section-title {
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+.ingredients-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.ingredients-list li {
+  background-color: #f9f9f9;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #eee;
+}
+
+.instructions-text {
+  line-height: 1.8;
+  color: #555;
+  white-space: pre-line;
+}

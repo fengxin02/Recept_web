@@ -1,0 +1,21 @@
+/* src/components/layout/Header.css */
+
+.app-header {
+  width: 100%;
+  background-color: rgb(162, 26, 26);
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.header-title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
