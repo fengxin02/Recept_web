@@ -1,7 +1,6 @@
 // url for the api
 const API_URL = 'https://www.themealdb.com/api/json/v1/1';
 
-//search by name
 
 /**
  * Searches for recipes by name using the API.
@@ -29,7 +28,6 @@ export const searchRecipes = async (term) => {
   }
 };
 
-//search by id
 
 /**
  * Search a recipes details by its ID.

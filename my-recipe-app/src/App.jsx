@@ -7,7 +7,6 @@ import Home from './pages/Home'
 import Favorites from './pages/Favorites'
 import RecipeDetails from './pages/RecipeDetails'
 
-import './App.css'
 
 //npm run dev
 /**

@@ -8,7 +8,7 @@ import "./ErrorMessage.css";
  */
 const ErrorMessage = ({ message }) => {
   return (
-    <div >
+    <div className='error-container'>
       <h3>Error: {message}</h3>
     </div>
   );
